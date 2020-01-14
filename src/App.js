@@ -36,7 +36,7 @@ class App extends React.Component {
         console.log(friend)
       }
       else if (friend.id === id && friend.clicked === true) {
-        alert("You're an idiot!")
+        alert("Loser!")
         if (currentScore > highScore) {
           highScore = currentScore
         }
